@@ -1,0 +1,186 @@
+body{
+    background-image: url(ava.png);
+    background-size: cover;
+   
+   
+}
+h1{
+    background-color: white;
+    color: rgb(250, 3, 3);
+    height: 50px;
+    text-align: center;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(246, 246, 246);
+    border:  2px solid;
+    display: inline-block;
+    color: aliceblue;
+}
+#box1{
+    position: absolute;
+    width: 350px;
+    background-image: url(lamborgnii2.png);
+    background-size: cover;
+   
+    left: 0px;
+}
+#box2{
+    color: chartreuse;
+    position: relative;
+     background-image: url(svj\ 770.png);
+    background-size: cover;
+    width: 380px;
+    left: 550px;
+    top: 0px;
+   
+}
+#box3{
+    color: cyan;
+    width: 350px;
+    position: absolute;
+    background-image: url(royal.png);
+    background-size: cover;
+    right: 65px;
+}
+#p1{
+    color: white;
+    width: 200px;
+    font-size: large;
+    background-color: black;
+   position: absolute ;
+   text-align: center;
+    
+}
+#p2{
+    color: white;
+    width: 200px;
+    font-size: large;
+    background-color: black;
+    left: 590px;
+    position: absolute;
+    text-align: center;
+    
+}
+#p3{
+    color: white;
+    width: 200px;
+    font-size: large;
+    background-color: black;
+    right: 65px;
+    position: absolute;
+    text-align: center;
+    
+}
+#box4{
+    position: absolute;
+    width: 350px;
+    background-image: url(porsha.png);
+    background-size: cover;
+    left: 0px;
+}    
+
+#p4 {
+    color: white;
+    width: 200px;
+    font-size: large;
+    background-color: black;
+   position: absolute ;
+   text-align: center;
+   bottom: 105px;
+}
+#box5{
+    position: absolute;
+    width: 400px;
+    background-image: url(freerai.png);
+    background-size: cover;
+    left: 550px;
+}
+#p5{
+    color: white;
+    width: 200px;
+    font-size: large;
+    background-color: black;
+    left: 590px;
+    position: absolute;
+    text-align: center;
+     bottom: 105px;
+}
+#box6{
+    color: cyan;
+    width: 350px;
+    position: absolute;
+    background-image: url(LHS.png);
+    background-size: cover;
+    right: 65px;
+}
+#p6{
+    color: white;
+    width: 300px;
+    font-size: large;
+    background-color: black;
+    right: 65px;
+    position: absolute;
+    text-align: center;
+    bottom: 105px;
+}
+#box7 {
+    position: absolute;
+    width: 350px;
+    background-image: url(Lurus.png);
+    background-size: cover;
+    left: 0px;
+    top: 750px;
+}
+#p7{
+    color: white;
+    width: 200px;
+    font-size: large;
+    background-color: black;
+   position: absolute ;
+   text-align: center;
+   top: 950px;
+}
+#box8{
+    position: absolute;
+    width: 400px;
+    background-image: url(mercdee\ amg.png);
+    background-size: cover;
+    left: 550px;
+    top: 750px;
+}
+#p8{
+    color: white;
+    width: 200px;
+    font-size: large;
+    background-color: black;
+    left: 590px;
+    position: absolute;
+    text-align: center;
+    top: 950px;
+}
+#box9{
+    color: cyan;
+    width: 350px;
+    position: absolute;
+    background-image: url(as.png);
+    background-size: cover;
+    right: 65px;
+    top: 750px;
+}
+#p9{
+    color: white;
+    width: 300px;
+    font-size: large;
+    background-color: black;
+    right: 65px;
+    position: absolute;
+    text-align: center;
+    top: 950px;
+}
+#b1{
+    color: red;
+    left: 50px;
+}
+

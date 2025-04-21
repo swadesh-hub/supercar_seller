@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile - Supercar Seller</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #000, #2980b9);
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 12px;
+            width: 80%;
+            max-width: 900px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-header h1 {
+            font-size: 2.5rem;
+            color: #f39c12;
+        }
+
+        .profile-header p {
+            font-size: 1.2rem;
+            color: #ddd;
+        }
+
+        .profile-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .profile-form label {
+            font-size: 1.1rem;
+            color: #fff;
+            margin-bottom: 10px;
+            width: 100%;
+            text-align: left;
+        }
+
+        .profile-form input, .profile-form select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 1rem;
+        }
+
+        .profile-form input[type="submit"], .profile-form .done-btn {
+            background-color: #f39c12;
+            border: none;
+            color: #111;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .profile-form input[type="submit"]:hover, .profile-form .done-btn:hover {
+            background-color: #e67e22;
+        }
+
+        .edit-btn {
+            display: inline-block;
+            background-color: #f39c12;
+            color: #111;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .edit-btn:hover {
+            background-color: #e67e22;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <!-- Profile Header -->
+        <div class="profile-header">
+            <h1>Edit Your Profile</h1>
+            <p>Update your details below</p>
+        </div>
+
+        <!-- Profile Form -->
+        <form class="profile-form" action="#" method="POST">
+            <!-- Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="John Doe" required>
+
+            <!-- Gmail -->
+            <label for="email">Gmail:</label>
+            <input type="email" id="email" name="email" value="john.doe@example.com" required>
+
+            <!-- Contact -->
+            <label for="contact">Contact Number:</label>
+            <input type="tel" id="contact" name="contact" value="+123 456 7890" required>
+
+            <!-- Address -->
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" value="Beverly Hills, CA" required>
+
+            <!-- Age -->
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" value="30" required>
+
+            <!-- Country -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="USA" selected>United States</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">United Kingdom</option>
+                <option value="Germany">Germany</option>
+                <option value="Australia">Australia</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <!-- Done (Save Changes) Button -->
+            <input type="submit" value="Done" class="done-btn">
+        </form>
+
+        <!-- Action Buttons -->
+        <div class="actions">
+            <a href="#" class="edit-btn">Go Back</a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Supercar Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .nav {
+            background-color: #111;
+            overflow: hidden;
+        }
+
+        .nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+
+        .nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        .car-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .car-details {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 1200px;
+            width: 100%;
+            margin: 20px;
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .car-details:hover {
+            transform: translateY(-10px);
+        }
+
+        .car-image {
+            flex: 1;
+            max-width: 50%;
+            margin-right: 20px;
+        }
+
+        .car-image img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .car-info {
+            flex: 2;
+        }
+
+        .car-info h2 {
+            font-size: 2rem;
+            color: #111;
+        }
+
+        .car-info h3 {
+            color: #777;
+            margin: 10px 0;
+        }
+
+        .car-specs {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .car-specs h3 {
+            font-size: 1.5rem;
+            color: #111;
+            margin-bottom: 10px;
+        }
+
+        .car-specs ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .car-specs li {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 8px;
+        }
+
+        .buy-btn {
+            display: inline-block;
+            background-color: #f1c40f;
+            color: #111;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .buy-btn:hover {
+            background-color: #d4af37;
+        }
+
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Supercar Showcase</h1>
+        <p>Explore our exclusive collection of high-performance supercars.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <ul>
+            <li><a href="front page.html">Home</a></li>
+            
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Model.html">Model</a></li>
+            <li><a href="brand.html">Brand</a></li>
+            <li><a href="2 page.html">Latest</a></li>
+        </ul>
+    </div>
+
+    <!-- Car Details Section -->
+    <div class="car-container" id="models">
+
+        <!-- Ferrari LaFerrari -->
+        <div class="car-details">
+            <div class="car-image">
+                <img src="image1.png" alt="Ferrari LaFerrari" />
+            </div>
+            <div class="car-info">
+                <h2>Ferrari LaFerrari</h2>
+                <h3>Price: $1.5 Million</h3>
+                <p>The Ferrari LaFerrari is a hybrid hypercar that combines ultimate performance and cutting-edge technology, with stunning design and luxury. It's the pinnacle of Ferrari's engineering excellence.</p>
+                <div class="car-specs">
+                    <h3>Specifications</h3>
+                    <ul>
+                        <li><strong>Engine:</strong> 6.3L V12 Hybrid Engine</li>
+                        <li><strong>Horsepower:</strong> 950 hp</li>
+                        <li><strong>Torque:</strong> 900 Nm</li>
+                        <li><strong>Top Speed:</strong> 352 km/h (218 mph)</li>
+                        <li><strong>Acceleration:</strong> 0-60 mph in 2.6 seconds</li>
+                    </ul>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+
+        <!-- Lamborghini Aventador -->
+        <div class="car-details">
+            <div class="car-image">
+                <img src="image2.png" alt="Lamborghini Aventador" />
+            </div>
+            <div class="car-info">
+                <h2>Lamborghini Aventador</h2>
+                <h3>Price: $400,000</h3>
+                <p>The Lamborghini Aventador is a purebred supercar that combines aggressive styling, cutting-edge technology, and heart-pounding performance.</p>
+                <div class="car-specs">
+                    <h3>Specifications</h3>
+                    <ul>
+                        <li><strong>Engine:</strong> 6.5L V12 Engine</li>
+                        <li><strong>Horsepower:</strong> 730 hp</li>
+                        <li><strong>Torque:</strong> 690 Nm</li>
+                        <li><strong>Top Speed:</strong> 350 km/h (217 mph)</li>
+                        <li><strong>Acceleration:</strong> 0-60 mph in 2.9 seconds</li>
+                    </ul>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+
+        <!-- Porsche 911 Turbo -->
+        <div class="car-details">
+            <div class="car-image">
+                <img src="image3.png" alt="Porsche 911 Turbo" />
+            </div>
+            <div class="car-info">
+                <h2>Porsche 911 Turbo</h2>
+                <h3>Price: $150,000</h3>
+                <p>The Porsche 911 Turbo delivers a thrilling driving experience, blending everyday usability with extraordinary performance.</p>
+                <div class="car-specs">
+                    <h3>Specifications</h3>
+                    <ul>
+                        <li><strong>Engine:</strong> 3.8L Twin-Turbocharged Flat-6</li>
+                        <li><strong>Horsepower:</strong> 640 hp</li>
+                        <li><strong>Torque:</strong> 800 Nm</li>
+                        <li><strong>Top Speed:</strong> 330 km/h (205 mph)</li>
+                        <li><strong>Acceleration:</strong> 0-60 mph in 2.7 seconds</li>
+                    </ul>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+
+        <!-- McLaren P1 -->
+        <div class="car-details">
+            <div class="car-image">
+                <img src="image4.png" alt="McLaren P1" />
+            </div>
+            <div class="car-info">
+                <h2>McLaren P1</h2>
+                <h3>Price: $1.2 Million</h3>
+                <p>The McLaren P1 is a hybrid hypercar that blends astonishing performance with futuristic design and cutting-edge technology.</p>
+                <div class="car-specs">
+                    <h3>Specifications</h3>
+                    <ul>
+                        <li><strong>Engine:</strong> 3.8L Twin-Turbo V8 Hybrid</li>
+                        <li><strong>Horsepower:</strong> 903 hp</li>
+                        <li><strong>Torque:</strong> 900 Nm</li>
+                        <li><strong>Top Speed:</strong> 350 km/h (217 mph)</li>
+                        <li><strong>Acceleration:</strong> 0-60 mph in 2.8 seconds</li>
+                    </ul>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+
+        <!-- Bugatti Veyron -->
+        <div class="car-details">
+            <div class="car-image">
+                <img src="image5.png" alt="Bugatti Veyron" />
+            </div>
+            <div class="car-info">
+                <h2>Bugatti Veyron</h2>
+                <h3>Price: $2.5 Million</h3>
+                <p>The Bugatti Veyron is one of the fastest and most luxurious cars ever built, combining exceptional speed with unrivaled comfort and sophistication.</p>
+                <div class="car-specs">
+                    <h3>Specifications</h3>
+                    <ul>
+                        <li><strong>Engine:</strong> 8.0L Quad-Turbo W16</li>
+                        <li><strong>Horsepower:</strong> 1,001 hp</li>
+                        <li><strong>Torque:</strong> 1,250 Nm</li>
+                        <li><strong>Top Speed:</strong> 408 km/h (253 mph)</li>
+                        <li><strong>Acceleration:</strong> 0-60 mph in 2.5 seconds</li>
+                    </ul>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+
+        <!-- Aston Martin One-77 -->
+        <div class="car-details">
+            <div class="car-image">
+                <img src="image6.png" alt="Aston Martin One-77" />
+            </div>
+            <div class="car-info">
+                <h2>Aston Martin One-77</h2>
+                <h3>Price: $1.4 Million</h3>
+                <p>The Aston Martin One-77 is a limited-edition supercar that combines British craftsmanship with extraordinary performance and timeless design.</p>
+                <div class="car-specs">
+                    <h3>Specifications</h3>
+                    <ul>
+                        <li><strong>Engine:</strong> 7.3L V12 Engine</li>
+                        <li><strong>Horsepower:</strong> 750 hp</li>
+                        <li><strong>Torque:</strong> 750 Nm</li>
+                        <li><strong>Top Speed:</strong> 354 km/h (220 mph)</li>
+                        <li><strong>Acceleration:</strong> 0-60 mph in 3.5 seconds</li>
+                    </ul>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+        
+        <!-- Koenigsegg Agera RS -->
+        <div class="car-details">
+            <div class="car-image">
+                <img src="image7.png" alt="Koenigsegg Agera RS" />
+            </div>
+            <div class="car-info">
+                <h2>Koenigsegg Agera RS</h2>
+                <h3>Price: $2.5 Million</h3>
+                <p>The Koenigsegg Agera RS is one of the most extreme hypercars ever made, combining extraordinary power, light weight, and advanced technology to achieve breathtaking performance.</p>
+                <div class="car-specs">
+                    <h3>Specifications</h3>
+                    <ul>
+                        <li><strong>Engine:</strong> 5.0L Twin-Turbo V8</li>
+                        <li><strong>Horsepower:</strong> 1,160 hp</li>
+                        <li><strong>Torque:</strong> 1,280 Nm</li>
+                        <li><strong>Top Speed:</strong> 447 km/h (278 mph)</li>
+                        <li><strong>Acceleration:</strong> 0-60 mph in 2.9 seconds</li>
+                    </ul>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+
+        <!-- Bentley Continental GT -->
+        <div class="car-details">
+            <div class="car-image">
+                <img src="image8.png" alt="Bentley Continental GT" />
+            </div>
+            <div class="car-info">
+                <h2>Bentley Continental GT</h2>
+                <h3>Price: $231,800</h3>
+                <p>The Bentley Continental GT combines ultimate luxury with outstanding performance, offering a perfect blend of craftsmanship, comfort, and power.</p>
+                <div class="car-specs">
+                    <h3>Specifications</h3>
+                    <ul>
+                        <li><strong>Engine:</strong> 4.0L Twin-Turbo V8</li>
+                        <li><strong>Horsepower:</strong> 542 hp</li>
+                        <li><strong>Torque:</strong> 770 Nm</li>
+                        <li><strong>Top Speed:</strong> 207 mph (333 km/h)</li>
+                        <li><strong>Acceleration:</strong> 0-60 mph in 3.9 seconds</li>
+                    </ul>
+                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us at info@supercarsales.com</p>
+    </footer>
+
+</body>
+</html>

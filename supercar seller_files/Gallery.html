@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Supercar Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Navigation Bar Styles */
+        nav {
+            background-color: #111;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Gallery Styles */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery-item {
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            position: relative;
+            height: 300px;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item .info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .gallery-item h3 {
+            margin: 10px 0;
+            font-size: 1.4rem;
+        }
+        .gallery-item p {
+            color: #ccc;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Heading -->
+    <header id="home">
+        <h1>Supercar Seller</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="front page.html">Home</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Model.html">Model</a></li>
+            <li><a href="brand.html">brand</a></li>
+            <li><a href="2 page.html">Latest</a></li>
+        </ul>
+    </nav>
+
+    <!-- Gallery Section -->
+    <div class="gallery" id="gallery">
+        <div class="gallery-item" style="background-image: url('image1.png');">
+            <div class="info">
+                <h3>Ferrari LaFerrari</h3>
+                <p>The ultimate hypercar, a blend of performance and luxury.</p>
+            </div>
+        </div>
+        <div class="gallery-item" style="background-image: url('image2.png');">
+            <div class="info">
+                <h3>Lamborghini Aventador</h3>
+                <p>Powerful and aggressive, the Aventador stands out on the road.</p>
+            </div>
+        </div>
+        <div class="gallery-item" style="background-image: url('image3.png');">
+            <div class="info">
+                <h3>Porsche 911 Turbo</h3>
+                <p>Precision engineering and breathtaking performance.</p>
+            </div>
+        </div>
+        <div class="gallery-item" style="background-image: url('image4.png');">
+            <div class="info">
+                <h3>McLaren P1</h3>
+                <p>Hybrid technology meets cutting-edge performance.</p>
+            </div>
+        </div>
+        <div class="gallery-item" style="background-image: url('image5.png');">
+            <div class="info">
+                <h3>Bugatti Veyron</h3>
+                <p>The fastest and most luxurious hypercar ever made.</p>
+            </div>
+        </div>
+        <div class="gallery-item" style="background-image: url('image6.png');">
+            <div class="info">
+                <h3>Aston Martin DBS</h3>
+                <p>Elegance and speed come together in the iconic DBS.</p>
+            </div>
+        </div>
+        <div class="gallery-item" style="background-image: url('image7.png');">
+            <div class="info">
+                <h3>Koenigsegg Agera RS</h3>
+                <p>Unmatched performance and design excellence.</p>
+            </div>
+        </div>
+        <div class="gallery-item" style="background-image: url('image8.png');">
+            <div class="info">
+                <h3>Bentley Continental GT</h3>
+                <p>A perfect combination of luxury and performance.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <footer id="contact">
+        <p>Contact us at info@supercarworld.com</p>
+    </footer>
+
+</body>
+</html>

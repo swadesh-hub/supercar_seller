@@ -1,0 +1,34 @@
+
+body{
+    background-image: url(avata.png);
+    background-size: cover;
+}
+p {
+    background-color: black;
+    height: 78px;
+}
+div{
+    color: white;
+    background-color: black;
+    height: 60px;
+    
+}
+a {
+    margin-right: 200px;
+    
+}
+select{
+    background-color: white;
+    color: brown;
+}
+#zero {
+    text-align: right;
+    font-size: 20px;
+    color: black;
+}
+button{
+   background-color: white;
+   color: black;
+   position: absolute;
+   right: 0px;
+}
