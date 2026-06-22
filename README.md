@@ -1,84 +1,80 @@
-# Supercar Seller Website
+🏎 SUPERCAR SELLER
+Premium Automotive Marketplace
 
-## Overview
+*Project Overview
+The Supercar Seller Website is a premium online marketplace where users can explore, compare, and purchase luxury and high-performance vehicles. The platform combines stunning visual design with powerful search and filtering tools, delivering a world-class digital showroom experience.
+Whether you're a seasoned collector or a first-time luxury buyer, the platform provides an easy, enjoyable, and informative way to discover some of the world's most iconic automobiles.
 
-Supercar Seller Website is a modern web application designed for buying, selling, and exploring luxury and supercars. The platform provides users with detailed car listings, specifications, pricing information, and an easy-to-use interface for browsing premium vehicles.
+*User Experience
+Attractive, high-contrast interface inspired by automotive aesthetics
+Fast-loading image galleries with cinematic car photography
+Side-by-side vehicle comparison tool
+Saved favourites / wishlist functionality
+Smooth animations and micro-interactions
 
-## Features
+🛠 Tech Stack
+Layer                                        Technology
+Frontend                                      HTML5, CSS3, Vanilla JavaScript (ES6+)
+Styling                                       Custom CSS with CSS Variables & Flexbox/Grid
+Icons                                         Font Awesome 6FontsGoogle 
+Fonts —                                       Bebas Neue (display), Inter (body)
+Images                                        Optimised WebP with lazy loading
+Hosting                                       GitHub Pages / Netlify / Vercel (static)
+Version                                       ControlGit & GitHub
 
-* Browse a collection of luxury and supercars
-* View detailed vehicle specifications and images
-* Search and filter cars by brand, model, price, and category
-* Responsive design for desktop and mobile devices
-* User-friendly interface for seamless navigation
-* Contact sellers directly through the platform
+Project Structure
 
-## Technologies Used
-
-* HTML5
-* CSS3
-* JavaScript
-* React.js (if applicable)
-* Bootstrap / Tailwind CSS (if applicable)
-
-## Project Structure
-
-```text
 supercar-seller/
-│
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── assets/
-│   └── styles/
-├── package.json
+├── index.html              # Home / Hero page
+├── inventory.html          # Full car listings
+├── car-detail.html         # Individual car detail page
+├── compare.html            # Side-by-side comparison
+├── contact.html            # Contact / enquiry form
+├── css/
+│   ├── style.css           # Global styles & variables
+│   ├── inventory.css       # Listing grid styles
+│   └── detail.css          # Car detail page styles
+├── js/
+│   ├── main.js             # Core functionality
+│   ├── filter.js           # Search & filter logic
+│   └── compare.js          # Comparison tool
+├── assets/
+│   ├── images/             # Car photography
+│   └── icons/              # UI icon assets
 └── README.md
-```
 
-## Installation
+Getting Started
 
-1. Clone the repository:
+Clone the repository:
 
-```bash
-git clone <repository-url>
-```
+git clone https://github.com/your-username/supercar-seller.git
 
-2. Navigate to the project directory:
+Navigate into the project folder:
 
-```bash
 cd supercar-seller
-```
 
-3. Install dependencies:
+Open in your browser:
 
-```bash
-npm install
-```
+open index.html
+Or serve locally with any static file server:
+npx serve .
 
-4. Start the development server:
 
-```bash
-npm start
-```
 
-## Future Enhancements
+🎯 Target Audience
+User Type                                       Use Case🏁
+Car Enthusiasts                                 Discover & explore iconic supercars
+💳 Luxury Buyers                               Compare models and connect with sellers
+🏢 Dealerships                                 Showcase their premium inventory online
+🏆 Collectors                                  Track rare and limited-edition models
+📈 Automotive Businesses                       Reach a targeted, high-intent audience
 
-* User authentication and authorization
-* Online car booking system
-* Wishlist and favorites feature
-* AI-powered car recommendations
-* Secure payment integration
-* Admin dashboard for inventory management
+ Benefits
 
-## Contributing
+Instant access to detailed luxury car information — no dealership visit required
+Saves time by enabling real side-by-side vehicle comparisons
+Streamlines the online car-buying journey from discovery to enquiry
+Provides dealerships a professional, modern digital showroom
+Fully open-source — customisable for any automotive b
 
-Contributions are welcome. Feel free to fork the repository and submit pull requests.
 
-## License
-
-This project is licensed under the MIT License.
-
-## Author
-
-Developed for showcasing and selling premium supercars through a modern web platform.
