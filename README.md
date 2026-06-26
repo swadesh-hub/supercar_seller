@@ -13,47 +13,126 @@ Saved favourites / wishlist functionality
 Smooth animations and micro-interactions
 
 
- Benefits
+ Problem Solved
 
-Instant access to detailed luxury car information — no dealership visit required
-Saves time by enabling real side-by-side vehicle comparisons
-Streamlines the online car-buying journey from discovery to enquiry
-Provides dealerships a professional, modern digital showroom
-Fully open-source — customisable for any automotive b
+Traditional car-buying platforms often lack an immersive experience for luxury vehicle enthusiasts. Supercar Seller addresses this by:
 
-Technologies Used
+Providing a centralized platform for luxury car discovery.
+Offering detailed vehicle specifications and comparisons.
+Simplifying the process of exploring premium automobiles.
+Creating a modern digital showroom for dealerships and buyers.
+Tech Stack
+Frontend
 HTML5
 CSS3
 JavaScript
-React.js (if applicable)
-Bootstrap / Tailwind CSS (if applicable)
-Project Structure
-supercar-seller/
-│
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── assets/
-│   └── styles/
-├── package.json
-└── README.md
-Installation
-Clone the repository:
-git clone <repository-url>
-Navigate to the project directory:
-cd supercar-seller
-Install dependencies:
-npm install
-Start the development server:
-npm start
-Future Enhancements
-User authentication and authorization
-Online car booking system
-Wishlist and favorites feature
-AI-powered car recommendations
-Secure payment integration
-Admin dashboard for inventory management
-Contributing
+UI Frameworks
+Bootstrap / Tailwind CSS (if used)
+Future Integration
+React.js
+Node.js
+Express.js
+Database (Planned)
+MongoDB / MySQL
+Version Control
+Git
+GitHub
+Prerequisites
 
-Contributions are welcome. Feel free to fork the repository and submit pull requests.
+Before running the project, ensure the following are installed:
+
+Git
+Node.js (v18 or later)
+npm (Node Package Manager)
+Modern Web Browser (Chrome, Edge, Firefox)
+
+Check installations:
+
+node -v
+npm -v
+git --version
+Installation
+Clone the Repository
+git clone https://github.com/swadesh-hub/supercar_seller.git
+Navigate to Project Directory
+cd supercar_seller
+Install Dependencies
+npm install
+Start Development Server
+npm start
+Build for Production
+npm run build
+Environment Variables
+
+Create a .env file in the root directory:
+
+PORT=3000
+REACT_APP_API_URL=http://localhost:5000/api
+Usage
+
+Run the application:
+
+npm start
+
+Open your browser:
+
+http://localhost:3000
+Features
+🚗 Luxury Car Listings
+🔍 Advanced Search & Filtering
+📊 Vehicle Comparison
+❤️ Wishlist Functionality
+📱 Fully Responsive Design
+🎨 Modern Automotive UI
+⚡ Fast Navigation Experience
+📷 High-Quality Vehicle Galleries
+API Reference
+Get All Cars
+GET /api/cars
+
+Response:
+
+[
+  {
+    "id": 1,
+    "name": "Lamborghini Aventador",
+    "price": 500000
+  }
+]
+Get Car Details
+GET /api/cars/:id
+Add New Car
+POST /api/cars
+
+Payload:
+
+{
+  "name": "Ferrari SF90",
+  "price": 600000,
+  "brand": "Ferrari"
+}
+Tests
+
+Run all tests:
+
+npm test
+
+Generate coverage report:
+
+npm run test:coverage
+Contact
+Developer
+
+Swadesh Narwariya
+
+GitHub:
+https://github.com/swadesh-hub
+Acknowledgments
+
+Special thanks to:
+
+Open Source Community
+GitHub
+Automotive Design Inspiration Sources
+Contributors and Supporters
+Modern Web Development Community
